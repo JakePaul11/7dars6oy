@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: red;
+}
+
+#comments-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.comment {
+    background-color: cyan;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px ;
+    border-radius: 10px;
+    width: 300px;
+}
+
+h3 {
+    font-size: 20px;
+}
